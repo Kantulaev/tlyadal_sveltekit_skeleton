@@ -1,4 +1,4 @@
-<section
+<section id="History"
   class="overflow-hidden pb-24 bg-gray-50 dark:bg-gray-900 sm:grid sm:grid-cols-2 sm:items-center"
 >
   <div class="p-8 md:p-12 lg:px-16 lg:py-24">
@@ -7,7 +7,7 @@
         История Села Тлядал
       </h2>
 
-      <p class="hidden text-gray-500 dark:text-gray-400 md:mt-4 md:block">
+      <p class="text-gray-500 py-4 dark:text-gray-400 md:mt-4 md:block">
         До революции 1917 года было известно под грузинским названием Калаки -
         что означает "Город", так как в прошлом село было многолюдным и
         считалось главным в обществе Капуча. <br />В 1944 году упразднено,

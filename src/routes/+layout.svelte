@@ -11,26 +11,13 @@
     <!-- App Bar -->
     <AppBar>
       <svelte:fragment slot="lead">
-        <strong class="text-xl uppercase">Село Тлядал</strong>
+        <strong class="text-xl">Село Тлядал</strong>
       </svelte:fragment>
       <svelte:fragment slot="trail">
+        <a class="btn btn-sm variant-ghost-surface" href="#History">История</a>
         <a
           class="btn btn-sm variant-ghost-surface"
-          href="https://discord.gg/EXqV7W8MtY"
-          target="_blank"
-          rel="noreferrer">Галлерея</a
-        >
-        <a
-          class="btn btn-sm variant-ghost-surface"
-          href="https://github.com/skeletonlabs/skeleton"
-          target="_blank"
-          rel="noreferrer">История</a
-        >
-        <a
-          class="btn btn-sm variant-ghost-surface"
-          href="https://twitter.com/SkeletonUI"
-          target="_blank"
-          rel="noreferrer">Контакты</a
+          href="https://twitter.com/SkeletonUI">Контакты</a
         >
       </svelte:fragment>
     </AppBar>

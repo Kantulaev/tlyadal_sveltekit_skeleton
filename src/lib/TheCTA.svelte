@@ -13,7 +13,7 @@
 
           <div class="mt-4 md:mt-8">
             <a
-              href="#"
+              href="#gallery"
               class="inline-block rounded-xl border border-white bg-white px-12 py-3 text-sm font-medium text-red-500 transition-all duration-500 hover:bg-white/60 hover:text-white hover:rounded-full  focus:outline-none focus:ring focus:ring-yellow-400"
             >
               Галлерея
@@ -24,13 +24,13 @@
 
       <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
         <img
-          alt="Tlyadal"
+          alt="Тлядал"
           src="1.jpg"
           class="h-40 w-full object-cover sm:h-56 md:h-full"
         />
 
         <img
-          alt="Priroda Tlyadal"
+          alt="Природа Тлядала"
           src="2.jpg"
           class="h-40 w-full object-cover sm:h-56 md:h-full"
         />
