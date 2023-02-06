@@ -1,17 +1,37 @@
 <script>
   import { Carousel } from "flowbite-svelte";
-  export const images = [
+  const images = [
     {
       id: 0,
-      name: "Cosmic timetraveler",
-      imgurl: "1.jpg",
-      attribution: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
+      imgurl: "/gallery/w5.jpg",
     },
     {
       id: 1,
-      name: "Cosmic timetraveler",
-      imgurl: "2.jpg",
-      attribution: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
+      imgurl: "/gallery/w6.jpg",
+    },
+    {
+      id: 2,
+      imgurl: "/gallery/w3.jpg",
+    },
+    {
+      id: 3,
+      imgurl: "/gallery/w4.jpg",
+    },
+    {
+      id: 4,
+      imgurl: "/gallery/w1.jpg",
+    },
+    {
+      id: 5,
+      imgurl: "/gallery/w2.jpg",
+    },
+    {
+      id: 6,
+      imgurl: "/gallery/w7.jpg",
+    },
+    {
+      id: 7,
+      imgurl: "/gallery/w8.jpg",
     },
   ];
 
@@ -20,9 +40,9 @@
   let showIndicators = true;
 </script>
 
-<div id="gallery" class="flex flex-col justify-center py-8">
-  <h2 class="text-center py-4">Галлерея</h2>
-  <div class="max-w-5xl">
-    <Carousel {images} {showThumbs} {showCaptions} {showIndicators} divClass />
+<div id="gallery" class="flex flex-col items-center py-8">
+  <h2 class="text-center py-8 font-bold ">Тлядал зимой</h2>
+  <div class="max-w-6xl">
+    <Carousel {images} {showThumbs} {showCaptions} {showIndicators} />
   </div>
 </div>

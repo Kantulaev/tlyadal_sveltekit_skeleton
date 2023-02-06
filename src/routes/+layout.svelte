@@ -2,6 +2,7 @@
   import "@skeletonlabs/skeleton/themes/theme-crimson.css";
   import "@skeletonlabs/skeleton/styles/all.css";
   import "../app.postcss";
+  import { LightSwitch } from "@skeletonlabs/skeleton";
   import { AppShell, AppBar } from "@skeletonlabs/skeleton";
 </script>
 
@@ -19,6 +20,9 @@
           class="btn btn-sm variant-ghost-surface"
           href="https://twitter.com/SkeletonUI">Контакты</a
         >
+        <div class="hidden sm:flex">
+          <LightSwitch />
+        </div>
       </svelte:fragment>
     </AppBar>
   </svelte:fragment>
