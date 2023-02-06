@@ -20,8 +20,8 @@
   />
 </div>
 
-<div class="grid">
-  <img src="1.webp" alt="" />
-  <img src="2.png" alt="" />
-  <img src="3.png" alt="" />
+<div class="grid grid-cols-3">
+  <img  src="/contacts/1.webp" alt="" />
+  <img src="/contacts/2.png" alt="" />
+  <img src="/contacts/3.png" alt="" />
 </div>
