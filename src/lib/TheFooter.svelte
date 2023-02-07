@@ -4,42 +4,36 @@
 
 <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-gray-900">
   <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-    <h2
+    <h2 id="Contacts" class="font-bold text-center pt-8">
+      Контакты и Реквизиты
+    </h2>
+    <h3 class="text-center py-8">
+      <strong>Реквизиты:</strong><br />
+      ОГРН:020501710382 <br />
+      ИНН:0540011913 <br />
+      КПП:053801001 <br />
+      ОКПО:04289536 <br />
+      <br />
+      <strong>Сведения о регистрации:</strong><br />
+      ФНС:1020501710382 <br />
+      ПФР:017049000008 <br />
+      ФСС:050030077405001 <br />
+      <br />
+      <strong>Коды статистики:</strong><br />
+      ОКОГУ:3300500 <br />
+      ОКОПФ:75404 <br />
+      ОКФС:14 <br />
+      ОКАТО:82258825001 <br />
+      ОКТМО:82658425101 <br />
+      <br />
+      Адрес: <br/>Ул Саидмухамад-хаджи Абубакарова 44 <br />
+      Телефон: <a href="tel:+7903499238">+7 (903) 499-02-38</a><br/>
+    </h3>
+    <h3
       class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400"
     >
       Тлядал — село Бежтинского участка Дагестана
-    </h2>
-
-    <nav aria-label="Footer Nav" class="mt-12">
-      <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-        <li>
-          <a
-            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-            href="#gallery"
-          >
-            Галлерея
-          </a>
-        </li>
-
-        <li>
-          <a
-            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-            href="#History"
-          >
-            История
-          </a>
-        </li>
-
-        <li>
-          <a
-            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-            href="/"
-          >
-            Контакты
-          </a>
-        </li>
-      </ul>
-    </nav>
+    </h3>
 
     <li class="flex justify-center pt-8">
       <a

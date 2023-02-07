@@ -12,14 +12,15 @@
     <!-- App Bar -->
     <AppBar>
       <svelte:fragment slot="lead">
-        <strong class="text-xl">Село Тлядал</strong>
+        <a href="#MainContent"><strong class="text-xs md:text-xl">АДМИНИСТРАЦИЯ МО <br class="md:hidden"/>"СЕЛО ТЛЯДАЛ"</strong></a>
       </svelte:fragment>
       <svelte:fragment slot="trail">
         <a class="btn btn-sm variant-ghost-surface" href="#History">История</a>
         <a
           class="btn btn-sm variant-ghost-surface"
-          href="https://twitter.com/SkeletonUI">Контакты</a
+          href="#Contacts">Контакты</a
         >
+        <a class="hidden underline sm:flex" href="tel:+7903499238">+7 (903) 499-02-38</a>
         <div class="hidden sm:flex">
           <LightSwitch />
         </div>
