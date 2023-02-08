@@ -15,14 +15,10 @@
     },
     {
       id: 3,
-      imgurl: "/gallery/s4.jpg",
-    },
-    {
-      id: 4,
       imgurl: "/gallery/s6.jpg",
     },
     {
-      id: 5,
+      id: 4,
       imgurl: "/gallery/s7.jpg",
     },
   ];
@@ -34,7 +30,7 @@
 
 <div id="gallery" class="flex flex-col items-center py-8">
   <h2 class="text-center py-8 font-bold ">Тлядал летом</h2>
-  <div class="max-w-6xl">
-    <Carousel {images} {showThumbs} {showCaptions} {showIndicators} />
+  <div class="max-w-4xl">
+    <Carousel {images} {showThumbs} {showCaptions} {showIndicators} divClass />
   </div>
 </div>

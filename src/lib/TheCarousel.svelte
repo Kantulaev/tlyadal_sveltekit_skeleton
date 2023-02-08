@@ -42,7 +42,7 @@
 
 <div id="gallery" class="flex flex-col items-center py-8">
   <h2 class="text-center py-8 font-bold ">Тлядал зимой</h2>
-  <div class="max-w-6xl">
-    <Carousel {images} {showThumbs} {showCaptions} {showIndicators} />
+  <div class="max-w-4xl">
+    <Carousel {images} {showThumbs} {showCaptions} {showIndicators} divClass />
   </div>
 </div>
