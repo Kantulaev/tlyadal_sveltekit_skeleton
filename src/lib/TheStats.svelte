@@ -35,7 +35,9 @@
             Высота центра
           </dt>
 
-          <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">1790 м</dd>
+          <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">
+            1790 м
+          </dd>
         </div>
 
         <div
@@ -47,7 +49,9 @@
             Национальность
           </dt>
 
-          <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">Аварцы</dd>
+          <dd class="text-4xl font-extrabold text-red-600 md:text-5xl">
+            Аварцы
+          </dd>
         </div>
       </dl>
     </div>

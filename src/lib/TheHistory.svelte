@@ -1,4 +1,5 @@
-<section id="History"
+<section
+  id="History"
   class="overflow-hidden pb-24 bg-gray-50 dark:bg-gray-900 sm:grid sm:grid-cols-2 sm:items-center"
 >
   <div class="p-8 md:p-12 lg:px-16 lg:py-24">
