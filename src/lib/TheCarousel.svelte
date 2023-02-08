@@ -27,11 +27,11 @@
     },
     {
       id: 6,
-      imgurl: "/gallery/w7.jpg",
+      imgurl: "/gallery/w8.jpg",
     },
     {
       id: 7,
-      imgurl: "/gallery/w8.jpg",
+      imgurl: "/gallery/w7.jpg",
     },
   ];
 
